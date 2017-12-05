@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MainWin", "MainWin\MainWin.vcxproj", "{C1ED283C-789F-468B-B064-3143B9C98BB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFPage", "WPFPage\WPFPage.csproj", "{E166BB24-8602-486A-92CB-FBB2557CAFE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1ED283C-789F-468B-B064-3143B9C98BB3}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C1ED283C-789F-468B-B064-3143B9C98BB3}.Release|x64.ActiveCfg = Release|Win32
+		{C1ED283C-789F-468B-B064-3143B9C98BB3}.Release|x64.Build.0 = Release|Win32
+		{C1ED283C-789F-468B-B064-3143B9C98BB3}.Release|x86.ActiveCfg = Release|Win32
+		{C1ED283C-789F-468B-B064-3143B9C98BB3}.Release|x86.Build.0 = Release|Win32
+		{E166BB24-8602-486A-92CB-FBB2557CAFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E166BB24-8602-486A-92CB-FBB2557CAFE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E166BB24-8602-486A-92CB-FBB2557CAFE1}.Release|x64.ActiveCfg = Release|Any CPU
+		{E166BB24-8602-486A-92CB-FBB2557CAFE1}.Release|x64.Build.0 = Release|Any CPU
+		{E166BB24-8602-486A-92CB-FBB2557CAFE1}.Release|x86.ActiveCfg = Release|Any CPU
+		{E166BB24-8602-486A-92CB-FBB2557CAFE1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
