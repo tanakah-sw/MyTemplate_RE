@@ -180,7 +180,7 @@ void mainWin::Initialize()
   // create_threads in sequence
   hevent_initializeRE=CreateEvent(NULL, FALSE, FALSE, NULL);
   hevent_finalizeRE=CreateEvent(NULL, FALSE, FALSE, NULL);
-  hthreadRE=CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)thrProcRE, (PVOID *)this, 0, NULL);
+  hthreadRE=CreateThread(NULL, 0, (LPTHREAD_START_ROUTINE)thrProcRE, (void *)this, 0, NULL);
   WaitForSingleObject(hevent_initializeRE, 10000);
   CloseHandle(hevent_initializeRE); hevent_initializeRE=NULL;
 }
