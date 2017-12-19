@@ -2,7 +2,7 @@
 #include "mainwin.h"
 
 // richedit-logger
-DWORD WINAPI mainWin::thrProcRE(PVOID *lpparam)
+DWORD WINAPI mainWin::thrProcRE(void *lpparam)
 {
   mainWin *_this=reinterpret_cast<mainWin *>(lpparam);
 
