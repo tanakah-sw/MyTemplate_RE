@@ -83,7 +83,7 @@ private:
 
   // threads
   //// update richedit independently from main_messageloop
-  static DWORD WINAPI thrProcRE(PVOID *);
+  static DWORD WINAPI thrProcRE(void *);
   HANDLE hthreadRE;
   HANDLE hevent_initializeRE;
   HANDLE hevent_finalizeRE;
